@@ -12,6 +12,7 @@ import { useRouter } from 'next/router';
 import { v4 } from 'uuid';
 import styled from 'styled-components';
 import VideoUp from '@/src/components/media-components/VideoUp';
+import VideoCloud from '@/src/components/media-components/VideoCloud';
 
 
 
@@ -111,7 +112,8 @@ const UploadFiles = () => {
     <Container>
       <div>
         {/* <h3>tes</h3> */}
-        < VideoUp />
+        {/* < VideoUp /> */}
+        < VideoCloud />
       </div>
       <form onSubmit={uploadHandler}>
         <Input type='file' className='input' />

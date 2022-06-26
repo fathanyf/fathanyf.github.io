@@ -13,6 +13,8 @@ import { v4 } from 'uuid';
 import styled from 'styled-components';
 import VideoUp from '@/src/components/media-components/VideoUp';
 
+
+
 const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -107,6 +109,10 @@ const UploadFiles = () => {
 
   return (
     <Container>
+      <div>
+        {/* <h3>tes</h3> */}
+        < VideoUp />
+      </div>
       <form onSubmit={uploadHandler}>
         <Input type='file' className='input' />
         <Button type='submit'>Upload File</Button>
@@ -127,8 +133,10 @@ const UploadFiles = () => {
         })
       )}
     </Container>
-
   );
 };
+
+
+
 
 export default UploadFiles;

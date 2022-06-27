@@ -68,7 +68,7 @@ const VideoCloud = () => {
                 controls
                 autoPlay
                 height="480"
-                width="400"
+                width="240"
               ></video>
             </>
           )}

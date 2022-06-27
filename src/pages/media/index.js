@@ -113,7 +113,7 @@ const UploadFiles = () => {
       <div>
         {/* <h3>tes</h3> */}
         {/* < VideoUp /> */}
-        < VideoCloud />
+       
       </div>
       <form onSubmit={uploadHandler}>
         <Input type='file' className='input' />
@@ -134,6 +134,7 @@ const UploadFiles = () => {
           );
         })
       )}
+       < VideoCloud />
     </Container>
   );
 };
